@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tetris</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="t">
+		<div class="tc">
+			<div id="ratioContainer">
+				<div id="canvasContainer" class="gameContainer">
+					<!-- tetris board -->
+					<canvas id="tetris"></canvas>
+
+					<!-- game sidebar -->
+					<div class="sidebar">
+						<div class="statsBox">
+							<span class="statsBox__title">Score</span>
+							<div id="score">0</div>
+						</div> <!-- /.statsBox -->
+
+						<div class="statsBox">
+							<span class="statsBox__title">Level</span>
+							<div id="level">1</div>
+						</div> <!-- /.statsBox -->
+
+						<div class="statsBox">
+							<span class="statsBox__title">Time</span>
+							<div id="level">[TODO]</div>
+						</div> <!-- /.statsBox -->
+
+						<div id="nextTetramino" class="statsBox">
+							<span class="statsBox__title">Next</span>
+							<div id="nextContainer" class="nextContainer">
+								<canvas id="next"></canvas>
+							</div> <!-- /.nextContainer -->
+						</div> <!-- /#nextTetramino -->
+
+						<button id="pauseUnpause" class="button">Pause</button>
+						<button id="newGame" class="button">New game</button>
+					</div> <!-- /.sidebar -->
+				</div> <!-- /.gameContainer -->
+			</div> <!-- /.ratioContainer -->
+		</div> <!-- /.tc -->
+	</div> <!-- /.t -->
+
+	<script src="bundle.js"></script>
+</body>
+</html>

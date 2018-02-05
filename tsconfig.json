@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "outDir": "build",
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+    // "files": [
+    //     "typings/index.d.ts",
+    //     "entry.ts"
+    // ]
+}
